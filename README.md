@@ -65,7 +65,7 @@ Three classification tasks are assessed:
 | Folder | Description |
 |---------|------------|
 | `Notebooks/` | Data preprocessing, feature extraction, model training, evaluation, and visualization notebooks. |
-| `data/` | Processed datasets used throughout the experiments. |
+| `data/` | Processed datasets used throughout the experiments. Sims dataset is not included do to weight constrains, might affect reproductibility|
 | `models/` | Pre-trained models required for the ECG segmentation pipeline and experimental analyses. |
 | `outputs/` | Intermediate outputs generated during ECG preprocessing and segmentation. |
 | `CompBioMed_Report.pdf` | Final project report containing methodology, experiments, and results. |
