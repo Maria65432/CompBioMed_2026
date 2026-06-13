@@ -106,10 +106,8 @@ pip install -r requirements.txt
 ## Authors
 
 **Irati de Anta Azkarate**
-Universitat Pompeu Fabra (UPF)
 
 **Maria Farràs Soldevila**
-Universitat Pompeu Fabra (UPF)
 
 ---
 
