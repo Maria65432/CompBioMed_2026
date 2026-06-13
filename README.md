@@ -62,54 +62,13 @@ Three classification tasks are assessed:
 
 ### Folder Description
 
-| Folder                  | Description                                                                                      |
-| ----------------------- | ------------------------------------------------------------------------------------------------ |
-| `Notebooks/`            | Data preprocessing, feature extraction, model training, evaluation, and visualization notebooks. |
-| `data/`                 | Processed datasets used throughout the experiments.                                              |
-| `models/`               | Models required for the QRS  Segmentation file
-|
-| `outputs/`              | Intermediate outputs generated during ECG preprocessing and segmentation.                        |
-| `CompBioMed_Report.pdf` | Final project report containing methodology, experiments, and results.                           |
-
----
-
-## Datasets
-
-The study combines data from four different sources:
-
-* **Teknon:** Clinical dataset from Hospital Teknon (Barcelona)
-* **CARTO:** Clinical electroanatomical mapping dataset
-* **China:** Publicly available external ECG dataset
-* **Sims:** Synthetic ECG dataset generated from electrophysiological simulations
-
----
-
-## Methodology
-
-### Preprocessing
-
-* Clinical data cleaning and missing value analysis
-* ECG signal normalization and filtering
-* QRS segmentation and alignment
-* PVC transition calculation
-
-### Deep Learning
-
-* Convolutional Neural Networks (CNN)
-* CNN + Multilayer Perceptron (MLP) multimodal architecture
-
-### Classical Machine Learning
-
-* Logistic Regression
-* Support Vector Machine (SVM)
-* Random Forest
-* XGBoost
-
-### Unsupervised Learning
-
-* Principal Component Analysis (PCA)
-* K-Means Clustering
-
+| Folder | Description |
+|---------|------------|
+| `Notebooks/` | Data preprocessing, feature extraction, model training, evaluation, and visualization notebooks. |
+| `data/` | Processed datasets used throughout the experiments. |
+| `models/` | Pre-trained models required for the ECG segmentation pipeline and experimental analyses. |
+| `outputs/` | Intermediate outputs generated during ECG preprocessing and segmentation. |
+| `CompBioMed_Report.pdf` | Final project report containing methodology, experiments, and results. |
 ---
 
 ## Requirements
