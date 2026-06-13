@@ -66,7 +66,8 @@ Three classification tasks are assessed:
 | ----------------------- | ------------------------------------------------------------------------------------------------ |
 | `Notebooks/`            | Data preprocessing, feature extraction, model training, evaluation, and visualization notebooks. |
 | `data/`                 | Processed datasets used throughout the experiments.                                              |
-| `models/`               | Saved machine learning and deep learning models.                                                 |
+| `models/`               | Models required for the QRS  Segmentation file
+|
 | `outputs/`              | Intermediate outputs generated during ECG preprocessing and segmentation.                        |
 | `CompBioMed_Report.pdf` | Final project report containing methodology, experiments, and results.                           |
 
